@@ -23,9 +23,9 @@
 "Tasto F6 impostato come controllo della grafia:
 	map <F6> :setlocal spell! spelllang=it<CR>
 "=============================================================================
-" Apri lo skeletro di una tipologie di file dentro un file appena creato
+" Apri lo template di una tipologie di file dentro un file appena creato
 	nnoremap ,html i<CR><ESC>:.-1read $HOME/.vim/html5template.html<CR>I<BS><ESC>j0i<BS><ESC>l`
-	nnoremap ,tex i<CR><ESC>:.-1read $HOME/.vim/Template CV Alessio Credendino.tex<CR>I<BS><ESC>j0i<BS><ESC>l`
+	nnoremap ,tex i<CR><ESC>:.-1read $HOME/.vim/Template_CV.tex<CR>I<BS><ESC>j0i<BS><ESC>l`
 "=============================================================================
 " Scorciatorie basilari per il linguaggio LATEX
 	autocmd FileType tex inoremap ,dc \begin{document}<Enter><Enter><Enter><++><Enter><Enter>\end{document}<Enter><Enter><++><Esc>6kf}i
